@@ -269,6 +269,24 @@ color: var( --accent-color) !important;
 color: var(--accent-color) !important;
 transition: ease-in 1s , ;
 }
+
+.navbar .nav-home{
+  padding: 0.85rem 1rem;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  font-family: myPremiumFont !important;
+  color: var( --neutral-color1) !important;
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+ animation-duration: 2s; /* don't forget to set a duration! */
+}
+.navbar .active .nav-home {
+color: var( --accent-color) !important;
+}
+.navbar .nav-home:hover{
+color: var(--accent-color) !important;
+transition: ease-in 1s , ;
+}
   /* Start carsol */
   .head-banner{
     color: var(--accent-color);

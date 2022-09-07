@@ -26,11 +26,11 @@ function loadfun() {
 
 
 // Home Header  Nav-link Target
-document.querySelector(".nav-link").addEventListener("click", function (e) {
+document.querySelector(".nav-target").addEventListener("click", function (e) {
   e.preventDefault();
 
   // MAtching strategy
-  if (e.target.classList.contains(".nav-link")) {
+  if (e.target.classList.contains(".nav-target")) {
     const id = e.target.getAttribute("href");
       document.querySelectorAll(id).scrollIntoView({ behavior: "smooth"});
       
