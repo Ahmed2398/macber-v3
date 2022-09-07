@@ -1,0 +1,75 @@
+.navbar .nav-link{
+  padding: 0.85rem 1rem;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  color: var(--primary-color1) !important;
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+ animation-duration: 2s; /* don't forget to set a duration! */
+}
+.navbar .active .nav-link {
+color: var( --accent-color) !important;
+}
+.navbar .nav-link:hover{
+color: var(--accent-color) !important;
+transition: ease-in 1s , ;
+}
+
+
+.custom-shadow {
+    -webkit-box-shadow: 0 5px 20px 0 rgb(210 210 245 / 50%);
+    box-shadow: 0 5px 20px 0 rgb(210 210 245 / 50%);
+}
+.contact-us-promo i{
+    font-size: 5rem;
+    color: var(--primary-color1);
+    margin-bottom: 1rem;
+}
+
+
+.form-control:focus, .custom-select:focus {
+    color: var(--neutral-color1);
+    background-color: var(--neutral-color1);
+    border-color: var(--primary-color1);
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+/* END  */
+
+/* Start Login Style Page */
+.login{
+ background-color: #ddd;
+} 
+.form-signin {
+    width: 100%;
+    max-width: 500px;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+  }
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  .form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+  .form-signin input[type="email"] {
+    margin-bottom: 1rem;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  input{
+    margin: 1rem 0 !important;
+  }
