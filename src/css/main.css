@@ -17,7 +17,7 @@
   font-size: var(--font-size-16);
   color: var(--secondary-color);
   line-height: 23px;
-  display: flex;
+  
   align-items: center;
   text-transform: capitalize;
   font-family: Poppins-Regular;
@@ -323,7 +323,7 @@ color: var(--neutral-color1);
   font-size: 2rem;
   padding: 1rem 0;
 }
-.rounded{
+.rounded img{
   border-radius: 5%;
 }
 .features-icon{
