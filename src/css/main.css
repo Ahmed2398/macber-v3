@@ -323,7 +323,12 @@ color: var(--neutral-color1);
   font-size: 2rem;
   padding: 1rem 0;
 }
-
+.rounded{
+  border-radius: 5%;
+}
+.features-icon{
+  font-size: 40px;
+}
 /* END */
 
 
