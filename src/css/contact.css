@@ -4,7 +4,7 @@
 .navbar .nav-link{
   padding: 0.85rem 1rem;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
   position: relative;
   color: var(--neutral-color1) !important;
   animation: bounce; /* referring directly to the animation's @keyframe declaration */
