@@ -639,26 +639,27 @@
     <script src="src/js/wow.js"></script>
     <script src="src/js/master.js"></script>
     <!-- END Script File -->
-    <script>
-        let counter = document.querySelectorAll(".counter");
-        let arr = Array.from(counter);
-        arr.map((item)=>{
-        let count = item.innerHTML;
-        item.innerHTML = "";
-        countNumber= 0;
-    function counterUp(){
-        item.innerHTML= countNumber++;
-        if ( countNumber > count ) {
-            clearInterval(stop);
-        }
-    }
+   <script>
+    // Counter 
+let counter = document.querySelectorAll(".counter");
+let arr = Array.from(counter);
+arr.map((item)=>{
+let count = item.innerHTML;
+item.innerHTML = "";
+countNumber= 0;
+function counterUp(){
+item.innerHTML= countNumber++;
+if ( countNumber > count ) {
+    clearInterval(stop);
+}
+}
 
-    let stop = setInterval(() => {
-        counterUp();
-    },item.dataset.speed/count );
+let stop = setInterval(() => {
+counterUp();
+},item.dataset.speed/count );
 
 });
-    </script>
+   </script>
 </body>
 
 </html>
