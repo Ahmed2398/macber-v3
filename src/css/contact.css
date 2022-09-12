@@ -1,9 +1,12 @@
+.navbar{
+  background:  linear-gradient(296.7deg, #45108A -5.17%, #3D0661 42.59%, #3D065F 42.6%, #200554 168.23%);
+}
 .navbar .nav-link{
   padding: 0.85rem 1rem;
   font-size: 18px;
   font-weight: 600;
   position: relative;
-  color: var(--primary-color1) !important;
+  color: var(--neutral-color1) !important;
   animation: bounce; /* referring directly to the animation's @keyframe declaration */
  animation-duration: 2s; /* don't forget to set a duration! */
 }

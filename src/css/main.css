@@ -341,11 +341,11 @@ color: var(--neutral-color1);
 }
 .text-head-pros , .numbertext {
   color: var(--primary-color1) !important;
-  font-weight: 600;
-  text-transform: uppercase;
+  font-weight: 400;
+  text-transform: capitalize;
 }
 .pra-head-pros{
-  color: rgb(124, 116, 116)124, 116, 116);
+  color: rgb(124, 116, 116);
 }
 .process-icon-2{
 
@@ -444,10 +444,10 @@ color: var(--accent-color);
 /* About Page */
 /* Start Hero Section 2  */
 .hero-section-2{
-  background-color: #360055;
+  background-color: var(--neutral-color1);
   background-position: center;
   background-repeat: no-repeat;
-  color: var(--neutral-color1);
+  color: var(--primary-color1);
 }
 .hero-section-2 .content-left{max-width: 602px;
   margin-right: 30px;
@@ -460,12 +460,8 @@ color: var(--accent-color);
     -ms-flex-direction: column;
     flex-direction: column;
 }
-.hero-section-2 .display-5{
-  color: #fff !important;
-}
-.hero-section-2 .lead{
-  color: var(--secondary-color);
-}
+
+
 
 .hero-section-2 .bubbles{
   z-index: 100;

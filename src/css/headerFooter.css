@@ -220,7 +220,7 @@
     font-size: 18px;
     font-weight: 600;
     position: relative;
-    font-family: myPremiumFont !important;
+   
     color: var( --neutral-color1) !important;
     animation: bounce; /* referring directly to the animation's @keyframe declaration */
    animation-duration: 2s; /* don't forget to set a duration! */
@@ -254,7 +254,9 @@ transition: ease-in 1s , ;
   .head-banner{
     color: var(--accent-color);
     padding-bottom: 20px;
-    font-family: Poppins-Medium !important;
+    font-family: Poppins-regular !important;
+    font-size: 30px;
+    text-transform: capitalize;
   }
   .text-banner{
     color: rgba(255, 255, 255, 0.7);
@@ -349,10 +351,16 @@ position: absolute;
 .box-3{
   padding-top: 50px;
 }
+.actives-links{
+  box-shadow: 0 5px 0 0 var(--accent-color); /* Border bottom */
+}
 .links-slide h6:hover{
   color: var(--accent-color) !important;
   transform: scale(1.2);
+  box-shadow: 0 5px 0 0 var(--accent-color); /* Border bottom */
+
 }
+
 /* End */
 
 .footer-section{
