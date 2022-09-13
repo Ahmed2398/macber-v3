@@ -1,0 +1,109 @@
+@import url(./common.css);
+
+.head-bannergame{
+    background-image: url('../../src/image/game-dev.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head-game{
+  padding: 90px 0;
+}
+ .text-lead{
+  line-height: 2.2;
+  font-size: 22px;
+  text-transform: lowercase;
+}
+ .text-lead::first-letter{
+  line-height: 2.2;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+ .head-brief{
+  color: var(--primary-color1);
+  text-transform: capitalize;
+ 
+}
+.Spereator {
+  border: 2px solid ;
+  width: 25%;
+  text-align: center !important;
+  height: 7px !important;
+  /* background-color: var(--accent-color); */
+}
+.head-game h1{
+color: var(--accent-color);
+font-family: Poppins-Bold;
+font-style: normal;
+font-weight: var(--font-weight-bold);
+font-size: var(--font-size-61);
+text-transform: capitalize;
+animation: wiggle 2s linear infinite;
+}
+.head-text{
+  color: var(--primary-color1);
+  font-size: var(--font-size-39);
+  text-align: center;
+  text-transform: capitalize;
+}
+.head-game p{
+font-family: Poppins-Bold;
+font-style: normal;
+font-weight: var(--font-weight-bold);
+font-size: var(--font-size-39);
+line-height: 46px;
+letter-spacing: 0;
+text-transform: capitalize;
+color: var(--secondary-color);
+animation: shake 150ms 2 linear;
+}
+.text-description{
+ 
+  line-height: 2.2;
+  font-size: 14px;
+  font-family: Poppins-Regular;
+  text-transform: lowercase;
+  text-align: left;
+}
+.text-description::first-letter{
+  text-transform: uppercase !important;
+}
+.single-project img {
+  border-radius: 5%;
+}
+/* Style tab links */
+#defaultOpen{
+  display: block !important;
+}
+.nav-tablinks{
+  background-color: var(--primary-color1);
+  width: 100%;
+  height: auto;
+  padding: 5px 5px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+
+}
+.tablink {
+  background-color: var(--primary-color1);
+  color: white;
+  padding: 15px 0;
+  margin: 6px;
+  border: none;
+}
+
+.tablink:hover {
+ cursor: pointer;
+ transform: scale(1.1);
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+  transition: 2s;
+}
+
+#Ar {background-color: #fff;}

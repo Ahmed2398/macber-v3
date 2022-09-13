@@ -444,9 +444,10 @@ color: var(--accent-color);
 /* About Page */
 /* Start Hero Section 2  */
 .hero-section-2{
-  background-color: var(--neutral-color1);
-  background-position: center;
-  background-repeat: no-repeat;
+ background-image: url('../../src/image/pattern.svg');
+ width: 100%;
+  background-position: center center;
+  background-repeat:repeat-x
   color: var(--primary-color1);
 }
 .hero-section-2 .content-left{max-width: 602px;

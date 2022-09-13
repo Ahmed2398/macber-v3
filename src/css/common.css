@@ -121,7 +121,7 @@ font-size: var(--font-size-10);
 
 /* Common class for sections */
 .p-60{
-  padding: 60px 0;
+  padding: 120px 0;
 }
 .bg-circle{
   background-image: url('../../src/image/icons/gold-circles.svg');

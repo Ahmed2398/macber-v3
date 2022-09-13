@@ -17,7 +17,7 @@
 
   <link rel="stylesheet" href="src/css/media-screen.css">
   <link rel="stylesheet" href="src/icons/fontawesome-free-6.1.1-web/css/all.css">
-  <link rel="stylesheet" href="src/css/softdev.css">
+  <link rel="stylesheet" href="src/css/service.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
   <!-- END STYLESHEET -->
@@ -67,66 +67,455 @@
   <section class="projects p-60">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12">
-          <div class="brief ">
-            <h3 class="head-brief">Brief</h3>
-            <p class="text-lead text-secondary">We specialize in creating, specifying, designing, programming,
-              documenting, testing, and optimizing software applications to meet business goals like JAVA & Python. </p>
+        <div class="col-md-12 text-center mt-3 mb-3">
+            <h3 class="head-brief ">Software Portfolio
+            <hr class="Spereator m-auto mt-3">
+        </div>
+        <div class="col-lg-12 ">
+          <div class="nav-tablinks">
+            <div class="d-flex justify-content-evenly">
+              <button  class="tablink" onclick="openPage('All', this, '' ,' 4px solid white')"id="defaultOpen">All</button>
+              <button  class="tablink" onclick="openPage('Mobile', this, '' ,' 1px solid white')">Mobile Applications</button>
+              <button class="tablink" onclick="openPage('Website', this, '' ,' 1px solid white')">Website Development</button>
+             
+            </div>
           </div>
         </div>
-        <div class="d-flex py-5 wow animate__fadeInLeft" data-wow-duration="3s">
-          <div class="col-lg-8 col-md-6 m-auto ">
-            <h2 class="head-text"> bonjorno</h2>
-            <p class="lead-text text-secondary text-description  ">
-              Enhancing Bonjorno's customers' experience through a coffee ordering system that allows them to choose
-              their coffee drink through a digital tablet that notifies the kitchen automatically of their order,
-              reducing error marks and saving time.
-            </p>
-            <!-- <div class="d-flex justify-content-center">  <a href="#" class="btn btn-purble-outline">
-        see more</a></div> -->
-
+        
+        <div class="col-lg-12 d-flex justify-content-around">
+          <div id="All" class="tabcontent wow anima wow animate__fadeInLeft " data-wow-duration="5s">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3 ">
+                  <button type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border: 0;
+                    background: transparent">
+      <div class="single-project">
+        <img src="src/image/riders.jpeg" width="100" style="width: 100%;">
+        <h5 class="head-text">The Groove</h5>
+        <p class="lead-text text-secondary text-description  ">
+          We set up a virtual meditating experience created for The Groove Relaxing VR event in Sokhna to
+          transport users to a 3-dimensional relaxation environment where they can meditate, relax and interact with their surroundings.
+        </p>
+      </div>
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header d-none">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="col-lg-4 col-md-6">
-            <img src="src/image/bonjorno.svg" width="100" style="width: 100%;">
+          <div class="modal-body p-0">
+           <img src="src/image/Untitled-1.png" style="width: 100%;">
           </div>
-        </div>
-
-        <div class="d-flex  py-5 wow animate__fadeInRight" data-wow-duration="3s">
-          <div class="col-lg-4 col-md-6 m-4 ">
-            <img src="src/image/orange.svg" width="100" style="width: 100%;">
+          <div class="modal-footer d-none">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
           </div>
-          <div class="col-lg-8 col-md-6 m-auto ">
-            <h2 class="head-text"> orange</h2>
-            <p class="lead-text text-secondary text-description  ">
-              We contributed in the event of announcing the rebranding of Mobinil to Orange by the presence of the
-              memory game, which requires the player to remember the initial furniture locations and recollect their
-              places again to test their memory strengths.
-            </p>
-            <!-- <div class="d-flex justify-content-center">  <a href="#" class="btn btn-purble-outline">
-        see more</a></div> -->
-          </div>
-        </div>
-
-        <div class="d-flex py-5 wow animate__fadeInLeft" data-wow-duration="3s">
-          <div class="col-lg-8 col-md-6 m-auto ">
-            <h2 class="head-text"> EIEC for project book fair</h2>
-            <p class="lead-text text-secondary text-description  ">
-              To facilitate the event’s operation, we installed a comprehensive visitors’ counting system in the book
-              fair project to limit the exhibition to only the invited raising safety and security levels through video
-              analytics collecting priceless marketing information.
-              The visitors’ counting system supports different automatic reactions to events and a wide range of video
-              analytics tools, human detection classifications, and real-time and human tracking.
-            </p>
-
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <img src="src/image/company/EIEC for project book fair.png" width="100" style="width: 100%;">
-          </div>
-
-
         </div>
       </div>
     </div>
+                  
+               
+                </div>
+                <div class="col-lg-3 ">
+                  <button type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border: 0;
+                    background: transparent">
+      <div class="single-project">
+        <img src="src/image/riders.jpeg" width="100" style="width: 100%;">
+        <h5 class="head-text">The Groove</h5>
+        <p class="lead-text text-secondary text-description  ">
+          We set up a virtual meditating experience created for The Groove Relaxing VR event in Sokhna to
+          transport users to a 3-dimensional relaxation environment where they can meditate, relax and interact with their surroundings.
+        </p>
+      </div>
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header d-none">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-0">
+           <img src="src/image/Untitled-1.png" style="width: 100%;">
+          </div>
+          <div class="modal-footer d-none">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+                  
+               
+                </div>
+                <div class="col-lg-3 ">
+                  <button type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border: 0;
+                    background: transparent">
+      <div class="single-project">
+        <img src="src/image/riders.jpeg" width="100" style="width: 100%;">
+        <h5 class="head-text">The Groove</h5>
+        <p class="lead-text text-secondary text-description  ">
+          We set up a virtual meditating experience created for The Groove Relaxing VR event in Sokhna to
+          transport users to a 3-dimensional relaxation environment where they can meditate, relax and interact with their surroundings.
+        </p>
+      </div>
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header d-none">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-0">
+           <img src="src/image/Untitled-1.png" style="width: 100%;">
+          </div>
+          <div class="modal-footer d-none">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+                  
+               
+                </div>
+                <div class="col-lg-3 ">
+                  <button type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border: 0;
+                    background: transparent">
+      <div class="single-project">
+        <img src="src/image/riders.jpeg" width="100" style="width: 100%;">
+        <h5 class="head-text">The Groove</h5>
+        <p class="lead-text text-secondary text-description  ">
+          We set up a virtual meditating experience created for The Groove Relaxing VR event in Sokhna to
+          transport users to a 3-dimensional relaxation environment where they can meditate, relax and interact with their surroundings.
+        </p>
+      </div>
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header d-none">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-0">
+           <img src="src/image/Untitled-1.png" style="width: 100%;">
+          </div>
+          <div class="modal-footer d-none">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+                  
+               
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="Mobile" class="tabcontent wow anima wow animate__fadeInLeft " data-wow-duration="5s">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3 ">
+                  <button type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border: 0;
+                    background: transparent">
+      <div class="single-project">
+        <img src="src/image/riders.jpeg" width="100" style="width: 100%;">
+        <h5 class="head-text">The Groove</h5>
+        <p class="lead-text text-secondary text-description  ">
+          We set up a virtual meditating experience created for The Groove Relaxing VR event in Sokhna to
+          transport users to a 3-dimensional relaxation environment where they can meditate, relax and interact with their surroundings.
+        </p>
+      </div>
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header d-none">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-0">
+           <img src="src/image/Untitled-1.png" style="width: 100%;">
+          </div>
+          <div class="modal-footer d-none">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+                  
+               
+                </div>
+                <div class="col-lg-3 ">
+                  <button type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border: 0;
+                    background: transparent">
+      <div class="single-project">
+        <img src="src/image/riders.jpeg" width="100" style="width: 100%;">
+        <h5 class="head-text">The Groove</h5>
+        <p class="lead-text text-secondary text-description  ">
+          We set up a virtual meditating experience created for The Groove Relaxing VR event in Sokhna to
+          transport users to a 3-dimensional relaxation environment where they can meditate, relax and interact with their surroundings.
+        </p>
+      </div>
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header d-none">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-0">
+           <img src="src/image/Untitled-1.png" style="width: 100%;">
+          </div>
+          <div class="modal-footer d-none">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+                  
+               
+                </div>
+                <div class="col-lg-3 ">
+                  <button type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border: 0;
+                    background: transparent">
+      <div class="single-project">
+        <img src="src/image/riders.jpeg" width="100" style="width: 100%;">
+        <h5 class="head-text">The Groove</h5>
+        <p class="lead-text text-secondary text-description  ">
+          We set up a virtual meditating experience created for The Groove Relaxing VR event in Sokhna to
+          transport users to a 3-dimensional relaxation environment where they can meditate, relax and interact with their surroundings.
+        </p>
+      </div>
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header d-none">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-0">
+           <img src="src/image/Untitled-1.png" style="width: 100%;">
+          </div>
+          <div class="modal-footer d-none">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+                  
+               
+                </div>
+                <div class="col-lg-3 ">
+                  <button type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border: 0;
+                    background: transparent">
+      <div class="single-project">
+        <img src="src/image/riders.jpeg" width="100" style="width: 100%;">
+        <h5 class="head-text">The Groove</h5>
+        <p class="lead-text text-secondary text-description  ">
+          We set up a virtual meditating experience created for The Groove Relaxing VR event in Sokhna to
+          transport users to a 3-dimensional relaxation environment where they can meditate, relax and interact with their surroundings.
+        </p>
+      </div>
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header d-none">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-0">
+           <img src="src/image/Untitled-1.png" style="width: 100%;">
+          </div>
+          <div class="modal-footer d-none">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+                  
+               
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="Website" class="tabcontent wow animate__fadeInLeft " data-wow-duration="5s">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3 ">
+                  <button type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border: 0;
+                    background: transparent">
+      <div class="single-project">
+        <img src="src/image/riders.jpeg" width="100" style="width: 100%;">
+        <h5 class="head-text">The Groove</h5>
+        <p class="lead-text text-secondary text-description  ">
+          We set up a virtual meditating experience created for The Groove Relaxing VR event in Sokhna to
+          transport users to a 3-dimensional relaxation environment where they can meditate, relax and interact with their surroundings.
+        </p>
+      </div>
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header d-none">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-0">
+           <img src="src/image/Untitled-1.png" style="width: 100%;">
+          </div>
+          <div class="modal-footer d-none">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+                  
+               
+                </div>
+                <div class="col-lg-3 ">
+                  <button type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border: 0;
+                    background: transparent">
+      <div class="single-project">
+        <img src="src/image/riders.jpeg" width="100" style="width: 100%;">
+        <h5 class="head-text">The Groove</h5>
+        <p class="lead-text text-secondary text-description  ">
+          We set up a virtual meditating experience created for The Groove Relaxing VR event in Sokhna to
+          transport users to a 3-dimensional relaxation environment where they can meditate, relax and interact with their surroundings.
+        </p>
+      </div>
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header d-none">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-0">
+           <img src="src/image/Untitled-1.png" style="width: 100%;">
+          </div>
+          <div class="modal-footer d-none">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+                  
+               
+                </div>
+                <div class="col-lg-3 ">
+                  <button type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border: 0;
+                    background: transparent">
+      <div class="single-project">
+        <img src="src/image/riders.jpeg" width="100" style="width: 100%;">
+        <h5 class="head-text">The Groove</h5>
+        <p class="lead-text text-secondary text-description  ">
+          We set up a virtual meditating experience created for The Groove Relaxing VR event in Sokhna to
+          transport users to a 3-dimensional relaxation environment where they can meditate, relax and interact with their surroundings.
+        </p>
+      </div>
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header d-none">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-0">
+           <img src="src/image/Untitled-1.png" style="width: 100%;">
+          </div>
+          <div class="modal-footer d-none">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+                  
+               
+                </div>
+                <div class="col-lg-3 ">
+                  <button type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border: 0;
+                    background: transparent">
+      <div class="single-project">
+        <img src="src/image/riders.jpeg" width="100" style="width: 100%;">
+        <h5 class="head-text">The Groove</h5>
+        <p class="lead-text text-secondary text-description  ">
+          We set up a virtual meditating experience created for The Groove Relaxing VR event in Sokhna to
+          transport users to a 3-dimensional relaxation environment where they can meditate, relax and interact with their surroundings.
+        </p>
+      </div>
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header d-none">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-0">
+           <img src="src/image/Untitled-1.png" style="width: 100%;">
+          </div>
+          <div class="modal-footer d-none">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+                  
+               
+                </div>
+              </div>
+            </div>
+          </div>
+
+        
+
+        </div>
+      </div>
   </section>
   <!--END section our Projects -->
   <!-- Start Footer Section -->
@@ -247,6 +636,7 @@
     integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="src/js/wow.js"></script>
+  <script src="src/js/tab.js"></script>
   <script src="src/js/master.js"></script>
   <!-- END Script File -->
 </body>
