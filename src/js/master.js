@@ -16,11 +16,11 @@ function themeChange(event) {
 
 
 // Loadind
-var Load = document.getElementById("Loading");
-var logoLoad = document.getElementById("logo-load");
-function loadfun() {
-  Load.style.display = "none";
-}
+// var Load = document.getElementById("Loading");
+// var logoLoad = document.getElementById("logo-load");
+// function loadfun() {
+//   Load.style.display = "none";
+// }
 
 
 

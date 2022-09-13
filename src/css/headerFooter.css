@@ -20,16 +20,12 @@
   .active-link:hover{
     transform: scale(1.1);
   }
-  /* .sticky {
-    position: fixed;
-    background: linear-gradient(296.7deg, #45108A -5.17%, #3D0661 42.59%, #3D065F 42.6%, #200554 168.23%);
-  } */
- .nav.sticky {
+  
+ .sticky {
     position: fixed;
     top: 0;
     width: 100%;
     background: linear-gradient(296.7deg, #45108A -5.17%, #3D0661 42.59%, #3D065F 42.6%, #200554 168.23%);
-    /* background-color: aqua; */
     z-index: 1000;
   }
   /* Slideshow container */

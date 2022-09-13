@@ -284,18 +284,16 @@ font-size: var(--font-size-10);
     src: url(../../src/fonts/Poppins/Poppins-Medium.ttf);
   }
   /* Loadin GIF  */
-  #Loading{
+  /* #Loading{
     position: fixed;
      width: 100%;
     height: 100%;
-    /* height: 800px; */
-    /* background-color: #3D065F; */
     background:#3D065F  url('../../src/image/load.gif.gif');
     background-repeat: no-repeat;
     background-position: center;
     z-index: 99999 ;
     background-size: cover;
-  }
+  } */
   /* END */
 
 
