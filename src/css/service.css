@@ -33,7 +33,7 @@
 }
 .head-game h1{
 color: var(--accent-color);
-font-family: Poppins-Bold;
+font-family: Raleway-Bold;
 font-style: normal;
 font-weight: var(--font-weight-bold);
 font-size: var(--font-size-61);
@@ -42,12 +42,12 @@ animation: wiggle 2s linear infinite;
 }
 .head-text{
   color: var(--primary-color1);
-  font-size: var(--font-size-39);
+  font-size: var(--font-size-31);
   text-align: center;
   text-transform: capitalize;
 }
 .head-game p{
-font-family: Poppins-Bold;
+font-family: Raleway-Bold;
 font-style: normal;
 font-weight: var(--font-weight-bold);
 font-size: var(--font-size-39);
@@ -61,7 +61,7 @@ animation: shake 150ms 2 linear;
  
   line-height: 2.2;
   font-size: 14px;
-  font-family: Poppins-Regular;
+  font-family: Raleway-Regular;
   text-transform: lowercase;
   text-align: left;
 }

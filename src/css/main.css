@@ -8,20 +8,18 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
-    font-family: Poppins-Medium;
+    font-family: Raleway-Bold;
+   
   }
   .about-content{
-   font-family: Signika-Regular;
+   font-family: Raleway-mediuam;
   font-style: normal;
   font-weight: var(--font-weight-regular);
   font-size: var(--font-size-16);
   color: var(--secondary-color);
   line-height: 23px;
-  
   align-items: center;
   text-transform: capitalize;
-  font-family: Poppins-Regular;
-
   }
   
   .box{
@@ -47,10 +45,10 @@
   text-transform: capitalize;
   margin: 10px 0;
     padding-bottom: 15px; 
-  font-family: Poppins-Regular !important;
+  font-family: Raleway-Regular !important;
   }
   .content-h4{
-    font-family: Poppins-medium;
+    font-family: Raleway-Medium;
     font-style: normal;
     font-weight: var(--font-weight-bold);
     font-size: var(--font-size-31);
@@ -100,7 +98,7 @@
     background: linear-gradient(296.7deg, #45108A -5.17%, #3D0661 42.59%, #3D065F 42.6%, #200554 168.23%);;
 }
 .department-info{
-font-family: Poppins-Bold;
+font-family: Raleway-Bold;
 font-style: normal;
 font-weight: var(--font-weight-bold);
 font-size: var(--font-size-25);
@@ -111,7 +109,7 @@ color: var(--neutral-color1);
 text-align: left;
 }
 .dep-head{
-    font-family: Poppins-Bold;
+    font-family: Raleway-Bold;
 font-weight: var(--font-weight-bold);
 font-size: var(--font-size-31);
 /* line-height: 57px; */
@@ -142,8 +140,12 @@ text-align: left;
 /* END */
 
 /* Start projects */
+.projects{
+  background-image: url('../../src/image/pattern.svg');
+  /* background-position: center; */
+}
 .projects .card-body .card-subtitle{
-font-family: Poppins-Bold;
+font-family: Raleway-Bold;
 font-style: normal;
 font-weight: var(--font-weight-bold);
 font-size: var(--font-size-16);
@@ -158,7 +160,7 @@ text-fill-color: transparent;
 } 
 
 .projects .card-body .card-title{
-    font-family: Poppins-Bold;
+    font-family: Raleway-Bold;
 font-style: normal;
 font-weight: var(--font-weight-bold);
 font-size: var(--font-size-31);
@@ -183,7 +185,7 @@ color: var(--secondary-color);
 }
 
 .projects .card-body .btn-link{
-font-family: Poppins-Bold;
+font-family: Raleway-Bold;
 font-style: normal;
 font-weight: var(--font-weight-bold);
 font-size: var(--font-size-16);
@@ -206,7 +208,7 @@ box-shadow: 0px 3.66031px 5.49047px rgba(0, 0, 0, 0.25);
 border-radius: 27.4523px;
 }
 .jop-dec{
-    font-family: Poppins-Regular;
+    font-family: Raleway-Regular;
 font-style: normal;
 font-weight: var(--font-weight-bold);
 font-size: var(--font-size-13);
@@ -218,7 +220,7 @@ text-transform: capitalize;
 color: var(--neutral-color1);
 }
 .job-time{
-    font-family: Poppins-Regular;
+    font-family: Raleway-Regular;
     /* font-style: normal; */
     font-weight: var(--font-weight-bold);
     font-size: var(--font-size-16);
@@ -233,7 +235,7 @@ color: var(--neutral-color1);
     
 }
 .job-info li i{
-  font-family: Poppins-Regular !important;
+  font-family: Raleway-Regular !important;
 
 }
 .span-title{
@@ -256,7 +258,7 @@ color: var(--neutral-color1);
   border: 2px solid #FFFFFF;
   border-radius: 10px;
   background-color: transparent;
-  font-family: Poppins-Regular;
+  font-family: Raleway-Regular;
   color: var(--neutral-color1);
 }
 .touch .form-select{
@@ -264,10 +266,10 @@ color: var(--neutral-color1);
   color: #ccc;
 }
 .form-label{
-  font-family: Poppins-Medium;
+  font-family: Raleway-Medium;
 }
 .head-contact{
-  font-family: Poppins-Medium;
+  font-family: Raleway-Medium;
 }
 /* start  */
 
@@ -301,12 +303,12 @@ color: var(--neutral-color1);
 
 .article-title{
   color: var(--primary-color1);
-  font-family: Poppins-Medium;
+  font-family: Raleway-Medium;
 
 }
 .article-content p{
   color: var(--secondary-color);
-  font-family: Poppins-Regular;
+  font-family: Raleway-Regular;
 }
 /* end */
 /* start features */
@@ -430,6 +432,7 @@ color: var(--accent-color);
 
 .testimonial p{
   color: #fff !important;
+  line-height: 2.2;
 }
 
 .rounded-custom {
@@ -447,8 +450,9 @@ color: var(--accent-color);
  background-image: url('../../src/image/pattern.svg');
  width: 100%;
   background-position: center center;
-  background-repeat:repeat-x
+  background-repeat:repeat-x;
   color: var(--primary-color1);
+  /* padding-top: 60px; */
 }
 .hero-section-2 .content-left{max-width: 602px;
   margin-right: 30px;

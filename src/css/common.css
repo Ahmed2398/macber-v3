@@ -1,7 +1,6 @@
 /* Common Style*/
 *{
   text-decoration: none !important;
-  font-family: Poppins-regular;
   text-transform: lowercase;
 }
 
@@ -58,12 +57,20 @@
   .display-6,
   h1,
   h2,
-  h3,
+  h3{
+    font-family:Raleway-Bold;
+    color: var(--primary-color1);
+    }
   h4,
   h5,
   h6 {
-    font-family:   Poppins-Regular;
+    font-family:Raleway-Mediuam;
     color: var(--primary-color1);
+  }
+  p,
+  span{
+    font-family:   Raleway-Regular;
+    color: var(--secondary-color);
   }
   .ptb-120 {
     padding: 120px 0;
@@ -91,7 +98,7 @@ font-size: var(--font-size-31);
 {
 font-size: var(--font-size-25);
 font-weight: var(--font-weight-regular);
-font-family:   Poppins-Regular;
+font-family:   Raleway-Regular;
 font-style: normal;
 line-height: 29px;
 text-align: center;
@@ -102,13 +109,13 @@ text-transform: capitalize;
 {
 font-size: var(--font-size-20);
 font-weight: var(--font-weight-regular);
-font-family:  Poppins-Regular;
+font-family:  Raleway-Regular;
 }
 .f-16
 {
 font-size: var(--font-size-16);
 font-weight: var(--font-weight-regular);
-font-family:  Poppins-Regular;
+font-family:  Raleway-Regular;
 }
 .f-13
 {
@@ -131,7 +138,7 @@ font-size: var(--font-size-10);
 }
 .span-text{
   font-size: var(--font-size-20);
-  font-family:  Poppins-Regular;
+  font-family:  Raleway-Regular;
   color: var(--secondary-color);
   line-height: 23px;
   letter-spacing: 0;
@@ -139,7 +146,7 @@ font-size: var(--font-size-10);
 }
 .head-ofsection{
   font-size: var(--font-size-39);
-  font-family:  Poppins-Regular;
+  font-family:  Raleway-Regular;
   color: var(--secondary-color);
   /* line-height: 57px; */
   display: flex;
@@ -156,7 +163,7 @@ font-size: var(--font-size-10);
   padding: 0.2px 25px;
   font-size: 22px;
   text-align: center;
-  font-family: Poppins-Medium;
+  font-family: Raleway-Mediuam;
 
 }
 .btn-costume-one:hover{
@@ -230,7 +237,7 @@ font-size: var(--font-size-10);
 /* ************************************ */
 
 .projects .card-body .btn-link{
-  font-family: Poppins-Bold;
+  font-family: Raleway-Bold;
   font-style: normal;
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-16);
@@ -247,7 +254,7 @@ font-size: var(--font-size-10);
   }
 
   .projects .card-body .btn-read{
-    font-family: Poppins-Bold;
+    font-family: Raleway-Bold;
     font-style: normal;
     font-weight: var(--font-weight-bold);
     font-size: var(--font-size-16);
@@ -269,19 +276,47 @@ font-size: var(--font-size-10);
 /* END */
 
 
-  @font-face {
-    font-family: Poppins-Bold;
-    src: url(../../src/fonts/Poppins/Poppins-Bold.ttf);
+  /* @font-face {
+    font-family: Raleway-Bold;
+    src: url(../../src/fonts/Poppins/Raleway-Bold.ttf);
   }
 
   @font-face {
-    font-family: Poppins-Regular;
-    src: url(../../src/fonts/Poppins/Poppins-Regular.ttf);
+    font-family: Raleway-Regular;
+    src: url(../../src/fonts/Poppins/Raleway-Regular.ttf);
   }
 
   @font-face {
-    font-family: Poppins-Medium;
-    src: url(../../src/fonts/Poppins/Poppins-Medium.ttf);
+    font-family: Raleway-Mediuam;
+    src: url(../../src/fonts/Poppins/Raleway-Mediuam.ttf);
+  } */
+
+  /* sssss */
+  @font-face {
+    font-family: Raleway-Bold;
+    src: url(../../src/fonts/raleway/Raleway-Bold.ttf);
+  }
+  @font-face {
+    font-family: Raleway-Mediuam;
+    src: url(../../src/fonts/raleway/Raleway-Medium.ttf);
+  }
+  @font-face {
+    font-family: Raleway-Regular;
+    src: url(../../src/fonts/raleway/Raleway-Regular.ttf);
+  }
+  /*  */
+
+  @font-face {
+    font-family:Raleway-Mediuam;
+    src: url(../../src/fonts/open-sans/OpenSans-Light.ttf);
+  }
+  @font-face {
+    font-family: OpenSans-Regular;
+    src: url(../../src/fonts/open-sans/OpenSans-Regular.ttf);
+  }
+  @font-face {
+    font-family: OpenSans-Bold;
+    src: url(../../src/fonts/open-sans/OpenSans-Bold.ttf);
   }
   /* Loadin GIF  */
   /* #Loading{

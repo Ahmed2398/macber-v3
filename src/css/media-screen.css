@@ -32,6 +32,25 @@
       margin: 10px 0px;
       
     }
+    .navbar-toggler{
+      width: 60%;
+      border: none;
+      text-align: inherit;
+    }
+    .navbar-toggler:focus{
+      box-shadow: none;
+    }
+    .navbar-toggler .fa-bars{
+      color: #fff;
+      font-size: 30px;
+      cursor: pointer;
+    }
+    iframe{
+      width: 100%;
+    }
+    .hero-section-2{
+      padding-top: 140px;
+    }
   }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -56,6 +75,22 @@
 }
 .img-mobile{
   display: none;
+}
+.navbar-toggler{
+  width: 10%;
+  border: none;
+  text-align: inherit;
+}
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+.navbar-toggler .fa-bars{
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+}
+iframe{
+  width: 100%;
 }
   } 
 

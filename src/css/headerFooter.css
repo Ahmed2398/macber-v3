@@ -210,7 +210,12 @@
       right: 128px;
   }
 
+  .navbar-nav .nav-link {
+    font-family: Raleway-Regular !important;
+    font-weight: 200 !important;
+    font-size: 15px !important;
 
+  }
   .navbar .nav-link{
     padding: 0.85rem 1rem;
     font-size: 18px;
@@ -231,9 +236,9 @@ transition: ease-in 1s , ;
 .navbar .nav-home{
   padding: 0.85rem 1rem;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 200;
   position: relative;
-  font-family: myPremiumFont !important;
+  font-family: Raleway-Regular !important;
   color: var( --neutral-color1) !important;
   animation: bounce; /* referring directly to the animation's @keyframe declaration */
  animation-duration: 2s; /* don't forget to set a duration! */
@@ -249,15 +254,15 @@ transition: ease-in 1s , ;
   .head-banner{
     color: var(--accent-color);
     padding-bottom: 20px;
-    font-family: Poppins-regular !important;
+       font-family: Raleway-Bold  !important;
     font-size: 30px;
     text-transform: capitalize;
   }
   .text-banner{
     color: rgba(255, 255, 255, 0.7);
-    font-family: Poppins-Regular !important;
+    font-family: Raleway-Mediuam ;
     line-height: 2.2;
-    width: 65%;
+    width: 100%;
 
   }
   
@@ -380,10 +385,10 @@ position: absolute;
     color: var(--neutral-color1);
 }
 .ratting-wrap h6{
-  font-family: Poppins-Regular;
+  font-family: Raleway-Regular;
 }
 .copyright-text{
-  font-family: Poppins-Regular;
+  font-family: Raleway-Regular;
 
 }
 .footer-section .nav-link{
@@ -394,10 +399,10 @@ position: absolute;
 }
 .footer-single-col .list-unstyled{
   line-height: 40px;
-  font-family: Poppins-Regular;
+  font-family: Raleway-Regular;
 
 }
 .footer-single-col li a{
-  font-family: Poppins-Regular;
+  font-family: Raleway-Regular;
 
 }
