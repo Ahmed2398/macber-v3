@@ -253,10 +253,13 @@ transition: ease-in 1s , ;
   /* Start carsol */
   .head-banner{
     color: var(--accent-color);
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
        font-family: Raleway-Bold  !important;
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+  .banner-span{
     font-size: 30px;
-    text-transform: capitalize;
   }
   .text-banner{
     color: rgba(255, 255, 255, 0.7);
@@ -264,6 +267,11 @@ transition: ease-in 1s , ;
     line-height: 2.2;
     width: 100%;
 
+  }
+  .link-text-banner{
+    /* font-size: 14px; */
+    font-family:Raleway-Thin;
+    text-transform: uppercase;
   }
   
   .list-icons{

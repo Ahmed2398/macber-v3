@@ -306,17 +306,11 @@ font-size: var(--font-size-10);
   }
   /*  */
 
+  
+
   @font-face {
-    font-family:Raleway-Mediuam;
-    src: url(../../src/fonts/open-sans/OpenSans-Light.ttf);
-  }
-  @font-face {
-    font-family: OpenSans-Regular;
-    src: url(../../src/fonts/open-sans/OpenSans-Regular.ttf);
-  }
-  @font-face {
-    font-family: OpenSans-Bold;
-    src: url(../../src/fonts/open-sans/OpenSans-Bold.ttf);
+    font-family: Raleway-Thin;
+    src: url(../../src/fonts/raleway/Raleway-Thin.ttf);
   }
   /* Loadin GIF  */
   /* #Loading{

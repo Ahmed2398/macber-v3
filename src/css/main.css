@@ -271,6 +271,15 @@ color: var(--neutral-color1);
 .head-contact{
   font-family: Raleway-Medium;
 }
+.custom-shadow {
+  -webkit-box-shadow: 0 5px 20px 0 rgb(210 210 245 / 50%);
+  box-shadow: 0 5px 20px 0 rgb(210 210 245 / 50%);
+}
+.contact-us-promo i{
+  font-size: 5rem;
+  color: var(--neutral-color1);
+  margin-bottom: 1rem;
+}
 /* start  */
 
 .rounded-custom {
