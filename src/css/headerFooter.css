@@ -4,14 +4,14 @@
 .header{
   /* background: linear-gradient(296.7deg, #45108A -5.17%, #3D0661 42.59%, #3D065F 42.6%, #200554 168.23%); */
 
-    background-image: url(../image/Group\ 1359.svg);
+    /* background-image: url(../image/Group\ 1359.svg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
      
   }
   .bg-is{
-     /* background-image: url(../image/Group\ 1359.svg); */
+     /* background-image: url(../../src/image/Landing\ Page.svg); */
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -252,7 +252,7 @@ transition: ease-in 1s , ;
 }
   /* Start carsol */
   .head-banner{
-    color: var(--accent-color);
+    color: #9903ab;
     /* padding-bottom: 20px; */
        font-family: Raleway-Bold  !important;
     font-size: 40px;
@@ -262,16 +262,24 @@ transition: ease-in 1s , ;
     font-size: 30px;
   }
   .text-banner{
-    color: rgba(255, 255, 255, 0.7);
-    font-family: Raleway-Mediuam ;
-    line-height: 2.2;
+    color:#4a4085;
+    font-family: Raleway-Regular ;
+    line-height: 2.6;
     width: 100%;
+    font-size: 18px;
 
   }
+  .h3-banner{
+    font-family: Raleway-Regular !important ;
+    font-size:60px ;
+    color:#4a4085;
+   
+  }
   .link-text-banner{
-    /* font-size: 14px; */
-    font-family:Raleway-Thin;
+    font-size: 20px;
+    font-family:Raleway-Regular;
     text-transform: uppercase;
+    color: var(--primary-color1) !important;
   }
   
   .list-icons{
@@ -330,15 +338,19 @@ transition: ease-in 1s , ;
 position: absolute;
   }
   .carousel-indicators{
-    position: static !important; 
+    position: static !important;
   }
+.carousel-indicators button{
+  color: #777 !important; 
 
+}
    .carousel-indicators [data-bs-target] {
   position: relative;
   width: 60px;
   height: 6px;
   border: none;
   border-radius: 24px;
+  background-color: #ccc;
 }
 
 .carousel-item , .active{
@@ -361,13 +373,19 @@ position: absolute;
   padding-top: 50px;
 }
 .actives-links{
-  box-shadow: 0 5px 0 0 var(--accent-color); /* Border bottom */
+  box-shadow: 0 5px 0 0 var(--accent-color);
+  color: var(--accent-color); /* Border bottom */
+}
+.links-slide{
+  color: red;
+}
+.links-slide h6{
+  color: #9903ab;
 }
 .links-slide h6:hover{
   color: var(--accent-color) !important;
   transform: scale(1.2);
   box-shadow: 0 5px 0 0 var(--accent-color); /* Border bottom */
-
 }
 
 /* End */
